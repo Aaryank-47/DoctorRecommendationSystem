@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-# import xgboost as xgb # Removed XGBoost as it's not used for initial training with single class
 from sklearn.preprocessing import LabelEncoder 
 import re
+# import xgboost as xgb # Removed XGBoost as it's not used for initial training with single class
 
 class DoctorRecommender:
     def __init__(self, data_path):
