@@ -1,0 +1,46 @@
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data files (if you don't want to commit datasets)
+*.xlsx
+*.csv
+*.pkl
+*.joblib
+
+# Logs and outputs
+*.log
+*.sqlite
+output/
+
+# Streamlit secrets
+.secrets/
+.streamlit/secrets.toml
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Package files
+*.egg-info/
+dist/
+build/
